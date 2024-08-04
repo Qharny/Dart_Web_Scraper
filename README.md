@@ -18,8 +18,8 @@ To run this project, you need to have Dart SDK installed on your system. If you 
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/dart_web_scraper.git
-   cd dart_web_scraper
+   git clone https://github.com/Qharny/Dart_Web_Scraper.git
+   cd Dart_Web_Scraper
    ```
 
 2. Install dependencies:
@@ -33,6 +33,12 @@ You can run the web scraper using the following command:
 
 ```
 dart run bin/main.dart [options]
+```
+
+## Test
+You can run the test using the following command:
+```
+dart run test
 ```
 
 ### Options:
