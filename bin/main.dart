@@ -20,6 +20,7 @@ void main(List<String> arguments) async {
         'Usage: dart run bin/main.dart --url <URL> [--format <format>] [--output <filename>]');
     exit(1);
   }
+  // 
 
   var url = argResults['url'] as String? ?? getUrl();
   var format = argResults['format'] as String? ?? getFormat();
